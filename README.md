@@ -7,11 +7,15 @@ For example: if the input string is "Hello World and Coders" then your program s
 
 ### Sample Test Cases
 
+```
 Input: "coderbyte"
 Output: "etybredoc"
+```
 
+```
 Input: "I Love Code"
 Output: "edoC evoL I"
+```
 
 ```JavaScript
 function FirstReverse(str) { 
