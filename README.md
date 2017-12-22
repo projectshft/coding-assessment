@@ -1,4 +1,5 @@
-# Coding Challenges
+# Sample Challenges
+These smaple problems were created to help you gauge your abilities in javascript to see if you might be ready for the actual coding challenge. Feel free to practice these and other problems you find across the interwebs!
 
 ## Problem One
 Write a function that when invoked will log `'Star Wars is the best!'`
@@ -19,10 +20,10 @@ Using the same object, write some javascript that will give us the following out
 ```
 
 ## Problem Five
-Write a function called `WorthTheWait` that takes the minutes parameter and logs the string `'The line is too long!'` if the wait for the Roller Coaster is over 60 minutes, or returns the string `'Let's do this!` if the wait is below 60 minutes.
+Write a function called `WorthTheWait` that takes the minutes parameter (passed as a number) and logs the string `'The line is too long!'` if the wait for the Roller Coaster is over 60 minutes, or returns the string `'Let's do this!` if the wait is below 60 minutes.
 
 ## Problem Six
-Using some JavaScript, have the `function addAllItems(array)` take the array parameter being passed and return the sum of all the items in the array. 
+Using some JavaScript, have the `function addAllItems(array)` take the array argument being passed and return the sum of all the items in the array. 
 
 For example: if the input string is `[2, 3, 3]` then your program should return `8`. 
 
@@ -43,13 +44,12 @@ function addAllItems(array) {
 
   // code goes here  
   return number; 
-         
 }
 ```
 ---
 
 ## Problem Seven
-Using some JavaScript, have the `function numberOfVowels(str)` loop through the array parameter being passed and return the total number of vowel letters that appear in the array. 
+Using some JavaScript, have the `function numberOfVowels(str)` loop through the array being passed and return the total number of vowel letters that appear in the array. 
 
 For example: if the input array is `[i, y, a, e, t]` then your program should return the number `3`. 
 
@@ -69,15 +69,14 @@ Output: 6
 function numberOfVowels(array) { 
 
   // code goes here  
-  return number; 
-         
+  return number;      
 }
 ```
 ---
 
 
 ## Problem Eight
-Using some JavaScript, have the `function firstReverse(str)` take the str parameter being passed and return the string in reversed order. 
+Using some JavaScript, have the `function firstReverse(str)` take the str argument being passed and return the string in reversed order. 
 
 For example: if the input string is `"Hello World and Coders"` then your program should return the string `sredoC dna dlroW olleH`. 
 
@@ -97,14 +96,13 @@ Output: "edoC evoL I"
 function firstReverse(str) { 
 
   // code goes here  
-  return str; 
-         
+  return str;        
 }
 ```
 ---
 
 ## Problem Nine
-Using some JavaScript, have the `function adjacentElementsProduct(array)` take an array of integers being passed, and find the pair of adjacent elements that has the largest product and return that product.
+Using some JavaScript, have the `function adjacentElementsProduct(array)` take an array of integers as the argument being passed, and find the pair of adjacent elements that has the largest product and return that product.
 
 For example: if the input array is `[1, 3, 5, 8]` then the function should return `40`; because 5 * 8 = 40.
 
@@ -124,8 +122,7 @@ Output: 50
 function adjacentElementsProduct(array) { 
 
   // code goes here  
-  return product; 
-         
+  return product;        
 }
 ```
 ---
