@@ -149,10 +149,11 @@ Output: 'The hardest test was test number 5'
 
 ```javascript
 Input: {
-          April: [88, 56, 55, 97, 100, 88],
-          Tammy: [78, 46, 92, 84, 55, 74],
-          Ben: [77, 59, 89, 47, 57, 83],
-          Garry: [54, 90, 84, 88, 39, 73]
+          April: [88, 56, 55, 97, 100, 88, 100, 98],
+          Tammy1: [78, 46, 92, 84, 55, 74, 89, 80],
+          Ben: [77, 59, 89, 47, 57, 83, 90, 89],
+          Garry: [54, 90, 84, 88, 39, 73, 67, 79],
+          Tammy2: [86, 49, 90, 77, 89, 92, 88, 75]
         }
 // The grades are in order by test number. The first index is test one, the second index is test 2, etc.
 
