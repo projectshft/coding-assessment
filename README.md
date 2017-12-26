@@ -1,5 +1,5 @@
 # Sample Challenges
-These smaple problems were created to help you gauge your abilities in javascript to see if you might be ready for the actual coding challenge. Feel free to practice these and other problems you find across the interwebs!
+These sample problems were created to help you gauge your abilities in javascript to see if you might be ready for the actual coding challenge. Feel free to practice these and other problems you find across the interwebs!
 
 ## Problem One
 Write a function that when invoked will log `'Star Wars is the best!'`
@@ -7,7 +7,7 @@ Write a function that when invoked will log `'Star Wars is the best!'`
 ## Problem Two
 Create a varible named after you and assign it to an object with the keys: age, height, hairColor, and an array called favoriteHobbies. You determine the values of these keys.
 
-For example: I would name my varible `Brett` and it would describe things about me when I reference it.
+For example: I would name my variable `Brett` and it would describe things about me when I reference it.
 
 ## Problem Three
 Add a new property called **wave** to the object you created above. Give **wave** the value of a function that will return the string `'Hey everyone!'`.
@@ -23,9 +23,9 @@ Using the same object, write some javascript that will give us the following out
 Write a function called `WorthTheWait` that takes the minutes parameter (passed as a number) and logs the string `'The line is too long!'` if the wait for the Roller Coaster is over 60 minutes, or returns the string `'Let's do this!` if the wait is below 60 minutes.
 
 ## Problem Six
-Using some JavaScript, have the `function addAllItems(array)` take the array argument being passed and return the sum of all the items in the array. 
+Using some JavaScript, have the `function addAllItems(array)` take the array argument being passed and return the sum of all the items in the array.
 
-For example: if the input string is `[2, 3, 3]` then your program should return `8`. 
+For example: if the input string is `[2, 3, 3]` then your program should return `8`.
 
 #### Sample Test Cases
 
@@ -40,18 +40,18 @@ Output: 17
 ```
 
 ```JavaScript
-function addAllItems(array) { 
+function addAllItems(array) {
 
   // code goes here  
-  return number; 
+  return number;
 }
 ```
 ---
 
 ## Problem Seven
-Using some JavaScript, have the `function numberOfVowels(str)` loop through the array being passed and return the total number of vowel letters that appear in the array. 
+Using some JavaScript, have the `function numberOfVowels(str)` loop through the array being passed and return the total number of vowel letters that appear in the array.
 
-For example: if the input array is `[i, y, a, e, t]` then your program should return the number `3`. 
+For example: if the input array is `[i, y, a, e, t]` then your program should return the number `3`.
 
 #### Sample Test Cases
 
@@ -66,7 +66,7 @@ Output: 6
 ```
 
 ```JavaScript
-function numberOfVowels(array) { 
+function numberOfVowels(array) {
 
   // code goes here  
   return number;      
@@ -76,9 +76,9 @@ function numberOfVowels(array) {
 
 
 ## Problem Eight
-Using some JavaScript, have the `function firstReverse(str)` take the str argument being passed and return the string in reversed order. 
+Using some JavaScript, have the `function firstReverse(str)` take the str argument being passed and return the string in reversed order.
 
-For example: if the input string is `"Hello World and Coders"` then your program should return the string `sredoC dna dlroW olleH`. 
+For example: if the input string is `"Hello World and Coders"` then your program should return the string `sredoC dna dlroW olleH`.
 
 #### Sample Test Cases
 
@@ -93,7 +93,7 @@ Output: "edoC evoL I"
 ```
 
 ```JavaScript
-function firstReverse(str) { 
+function firstReverse(str) {
 
   // code goes here  
   return str;        
@@ -119,7 +119,7 @@ Output: 50
 ```
 
 ```JavaScript
-function adjacentElementsProduct(array) { 
+function adjacentElementsProduct(array) {
 
   // code goes here  
   return product;        
