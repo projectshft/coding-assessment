@@ -1,5 +1,5 @@
 # Sample Challenges
-These sample problems were created to help you gauge your abilities in javascript to see if you might be ready for the actual coding challenge. Feel free to practice these and other problems you find across the interwebs!
+These sample problems were created to help you gauge your current coding abilities. The prompts here are written in JavaScript, but feel free to use any language you're comfortable in. Get as far as you can - don't fret if you cannot finish all of the problems. 
 
 ## Problem One
 Write a function that when invoked will log `'Star Wars is the best!'`
@@ -7,7 +7,7 @@ Write a function that when invoked will log `'Star Wars is the best!'`
 ## Problem Two
 Create a varible named after you and assign it to an object with the keys: age, height, hairColor, and an array called favoriteHobbies. You determine the values of these keys.
 
-For example: I would name my variable `Brett` and it would describe things about me when I reference it.
+For example: I would name my variable `Aaron` and it would describe things about me when I reference it.
 
 ## Problem Three
 Add a new property called **wave** to the object you created above. Give **wave** the value of a function that will return the string `'Hey everyone!'`.
@@ -20,89 +20,20 @@ Using the same object, write some javascript that will give us the following out
 ```
 
 ## Problem Five
-Write a function called `WorthTheWait` that takes the minutes parameter (passed as a number) and logs the string `'The line is too long!'` if the wait for the Roller Coaster is over 60 minutes, or returns the string `'Let's do this!` if the wait is below 60 minutes.
+Write a function called `WorthTheWait` that takes in minutes as an argument (a number) and logs the string `'The line is too long!'` if the wait for the number passed in is over 60, or returns the string `'Let's do this!` if the number passed in is less than 60.
 
 ## Problem Six
-Using some JavaScript, have the `function addAllItems(array)` take the array argument being passed and return the sum of all the items in the array.
-
-For example: if the input string is `[2, 3, 3]` then your program should return `8`.
-
-#### Sample Test Cases
-
-```
-Input: [3, 4, 2, 1]
-Output: 10
-```
-
-```
-Input: [3, 2, 10, 2]
-Output: 17
-```
-
-```JavaScript
-function addAllItems(array) {
-
-  // code goes here  
-  return number;
-}
-```
----
+Write a function that adds an array of numbers together. For example, a function invoked with this array, `[2, 3, 3, 4]` would return `12`. 
 
 ## Problem Seven
-Using some JavaScript, have the `function numberOfVowels(str)` loop through the array being passed and return the total number of vowel letters that appear in the array.
-
-For example: if the input array is `[i, y, a, e, t]` then your program should return the number `3`.
-
-#### Sample Test Cases
-
-```
-Input: [i, q, j, a, k, c, e, e]
-Output: 4
-```
-
-```
-Input: [o, t, u, i, a, e, a, z]
-Output: 6
-```
-
-```JavaScript
-function numberOfVowels(array) {
-
-  // code goes here  
-  return number;      
-}
-```
----
+Write a function that counts the number of vowels in an array, given that the arrays if full of only letters. For example, a function invoked with `[i, a, e, t, i, i, a]` would return `6`.
 
 
 ## Problem Eight
-Using some JavaScript, have the `function firstReverse(str)` take the str argument being passed and return the string in reversed order.
-
-For example: if the input string is `"Hello World and Coders"` then your program should return the string `sredoC dna dlroW olleH`.
-
-#### Sample Test Cases
-
-```
-Input: "coderbyte"
-Output: "etybredoc"
-```
-
-```
-Input: "I Love Code"
-Output: "edoC evoL I"
-```
-
-```JavaScript
-function firstReverse(str) {
-
-  // code goes here  
-  return str;        
-}
-```
----
+Write a function that reverses a string. For example, if you invoked the function with the string `"Hello World and Coders"`, it would return `sredoC dna dlroW olleH`.
 
 ## Problem Nine
-Using some JavaScript, have the `function adjacentElementsProduct(array)` take an array of integers as the argument being passed, and find the pair of adjacent elements that has the largest product and return that product.
+Write a function that takes an array of integers, and finds the pair of adjacent elements that has the largest product and return that product.
 
 For example: if the input array is `[1, 3, 5, 8]` then the function should return `40`; because 5 * 8 = 40.
 
@@ -117,15 +48,6 @@ Output: 6
 Input: [9, 5, 10, 2, 24, -1, -48]
 Output: 50
 ```
-
-```JavaScript
-function adjacentElementsProduct(array) {
-
-  // code goes here  
-  return product;        
-}
-```
----
 
 ## Problem Ten
 Imagine that you have been assigned to write a program for a school that needs to determine which test was the hardest for the students. Your program should be able to take an object as an argument that has a list of students with their respective list of grades. The output of the program should be able to clearly tell the user which test was the hardest (lowest class average).
@@ -156,5 +78,3 @@ Input: {
 
 Output: 'The hardest test was test number 2'
 ```
-
----
